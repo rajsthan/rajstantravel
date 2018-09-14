@@ -26,6 +26,18 @@ ul,label{
 	margin:0;
 	padding:0;
 }
+h6{
+    text-align: center;
+    
+    line-height: 22px;
+}
+font{
+    color: #0ac876;
+    margin-left: 34px;
+    font-style: oblique;
+    font-size: 56px;
+}
+
 body a:hover{
 	text-decoration:none;
 }
@@ -449,7 +461,7 @@ a.navbar-brand i.fa.fa-truck {
   transition: 0.3s;
 }
 .link-effect-2 a span::before {
-  color:#f1ce65;
+  color:#dd0505;
   position: absolute;
   top: 100%;
   content: attr(data-hover);
@@ -1271,8 +1283,27 @@ i.fa.fa-truck, i.fa.fa-subway,i.fa.fa-ship{
 	padding:80px 0;
 	position:relative;
 }
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color:skyblue;
+    height: 300px;
+    animation-direction: alternate-reverse;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
 #flexiselDemo1 {
-	display: none;
+    display: none;
+    background-color: #0077b5;
 }
 .nbs-flexisel-container {
 	position: relative;
